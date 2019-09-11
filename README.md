@@ -63,9 +63,7 @@ The Chicago and New York City files have these two additional columns:
 For a more interactive experience,  the raw input is taken in the terminal to present the statistics. 
 Below screenshots show the results after requesting for information in Chicago about particular user trip data:
 
-![Image of Code](https://lh4.googleusercontent.com/Ya36kv5VWvtipPrwY1WfG587LfQvxUtK6tc7NutSaKi-Q-ypwu4CtOzQyRZIOa6qnrmB786Y6-gpW5zQOJ6FOH-LIma2vlCOSHXdKxHsJjUaqAENVy_k=w673)
 
-![Image of output](https://lh6.googleusercontent.com/KwRfLLr5pWw_2N1BSWZWoi13Lsqoec4ES9GXNs1C0s1MmnXVxN-6R_snyaQa22XSDU-GuQZlqCrezmgP3XOo0EQScB602Mu5WJXSOze63wqZSII0VnRS=w1175)
-
+<image to be added>
 
 
