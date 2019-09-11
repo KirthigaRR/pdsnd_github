@@ -54,9 +54,7 @@ The Chicago and New York City files have these two additional columns:
 - counts of each user type
 - counts of each gender (only available for NYC and Chicago)
 - earliest, most recent, most common year of birth (only available for NYC and Chicago)
-
 - The number of missing values
-
 - The particular user trip data can also be explored.
 
 ### The Interactive Experience
