@@ -1,15 +1,71 @@
-### Date created
-Include the date you created this project and README file.
+# Explore-US-Bikeshare-Data
+## Udacity - Programming for  Data science with python - Project II
 
-### Project Title
-Replace the Project Title
+#### Overview of the project
+In this project I have used the data provided by Motivate, a bike share system provider for many major cities in the United States, 
+to uncover bike share usage patterns.The code is written in a way to compare the system usage between three large cities: Chicago, New York City, and Washington.
 
-### Description
-Describe what your project is about and what it does
+The code is written in python to import the data and answers the data related questions by computing descriptive statistics. 
+It is also written in the way to get the raw input from the user to create an interactive experience in the terminal to present these statistics.
 
-### Files used
-Include the files used
+### What Software Do I Need?
+To complete this project,the following softwares are required:
 
-### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+- Python
+- A text editor, like Sublime or Atom
+- A terminal application
+
+### The Datasets
+The datasets contain randomly selected data for the first six months of 2017 are provided for all three cities. 
+All three of the data files contain the same core six (6) columns:
+
+- Start Time (e.g., 2017-01-01 00:07:57)
+- End Time (e.g., 2017-01-01 00:20:53)
+- Trip Duration (in seconds - e.g., 776)
+- Start Station (e.g., Broadway & Barry Ave)
+- End Station (e.g., Sedgwick St & North Ave)
+- User Type (Subscriber or Customer)
+
+The Chicago and New York City files have these two additional columns:
+- Gender
+- Birth Year
+
+### Statistics Computed:
+
+#### 1. Popular times of travel (i.e., occurs most often in the start time)
+
+- most common month
+- most common day of week
+- most common hour of day
+
+#### 2. Popular stations and trip
+
+- most common start station
+- most common end station
+- most common trip from start to end (i.e., most frequent combination of start station and end station)
+
+#### 3. Trip duration
+
+- total travel time
+- average travel time
+
+#### 4. User info
+
+- counts of each user type
+- counts of each gender (only available for NYC and Chicago)
+- earliest, most recent, most common year of birth (only available for NYC and Chicago)
+
+- The number of missing values
+
+- The particular user trip data can also be explored.
+
+### The Interactive Experience
+For a more interactive experience,  the raw input is taken in the terminal to present the statistics. 
+Below screenshots show the results after requesting for information in Chicago about particular user trip data:
+
+![Image of Code](https://lh4.googleusercontent.com/Ya36kv5VWvtipPrwY1WfG587LfQvxUtK6tc7NutSaKi-Q-ypwu4CtOzQyRZIOa6qnrmB786Y6-gpW5zQOJ6FOH-LIma2vlCOSHXdKxHsJjUaqAENVy_k=w673)
+
+![Image of output](https://lh6.googleusercontent.com/KwRfLLr5pWw_2N1BSWZWoi13Lsqoec4ES9GXNs1C0s1MmnXVxN-6R_snyaQa22XSDU-GuQZlqCrezmgP3XOo0EQScB602Mu5WJXSOze63wqZSII0VnRS=w1175)
+
+
 
