@@ -57,11 +57,10 @@ The Chicago and New York City files have these two additional columns:
 - The number of missing values
 - The particular user trip data can also be explored.
 
-### The Interactive Experience
-For a more interactive experience,  the raw input is taken in the terminal to present the statistics. 
-Below screenshots show the results after requesting for information in Chicago about particular user trip data:
+## Referance
 
-
-<image to be added>
-
-
+- Stackoverflow
+- Quora
+- https://docs.python.org
+- https://numpy.org
+- https://pandas.pydata.org
