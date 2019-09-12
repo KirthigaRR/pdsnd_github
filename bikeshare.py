@@ -9,9 +9,9 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
 
-months =   ['all','january','february','march','april','may','june']
+months = ['all','january','february','march','april','may','june']
 
-days   =   ['all','sunday','monday','tuesday','wednesday','thursday','friday','saturday']
+days=['all','sunday','monday','tuesday','wednesday','thursday','friday','saturday']
 
 def get_filters():
     """
@@ -27,11 +27,12 @@ def get_filters():
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid   inputs
     while True :
-        city = str(input('\nChoose which city you want to explore : chicago , new york city , washington\n')).lower()
+        city=str(input('\nChoose which city you want to explore : chicago , new york city , washington\n')).lower()
         
         try:
             if city not in CITY_DATA:
-                print('\noops! the city you entered is not valid, choose a city from either chicago, newyork,washington:\n')
+                print(
+                    '\noops! the city you entered is not valid, choose a city from either chicago, newyork,washington:\n')
                 continue
             else:
                 break
@@ -40,7 +41,7 @@ def get_filters():
                    
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
-        month = str(input('\nchoose a month you would like to explore("january to june") or choose \"all\"\n')).lower()
+        month=str(input('\nchoose a month you would like to explore("january to june") or choose \"all\"\n')).lower()
         
         try:
             if month not in months:
@@ -53,7 +54,7 @@ def get_filters():
   
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
-        day = str(input('\nCould you type one of the week day you want to analyze? or choose \"all\"\n')).lower()
+        day=str(input('\nCould you type one of the week day you want to analyze? or choose \"all\"\n')).lower()
        
         try:
             if day not in days:
@@ -144,7 +145,7 @@ def station_statistics(df):
     print('The most common start station:',df['Start Station'].mode()[0])
 
     # TO DO: display most commonly used end station
-    common_end_station = df['End Station'].mode()[0]
+    common_end_station=df['End Station'].mode()[0]
     print('The most common end station:',common_end_station)
     
     # TO DO: display most frequent combination of start station and end station trip
