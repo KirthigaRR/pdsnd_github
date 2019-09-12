@@ -57,6 +57,15 @@ The Chicago and New York City files have these two additional columns:
 - The number of missing values
 - The particular user trip data can also be explored.
 
+<<<<<<< HEAD
 
 
+=======
+## Referance
+>>>>>>> 5d849a2... documentation ref added
 
+- Stackoverflow
+- Quora
+- https://docs.python.org
+- https://numpy.org
+- https://pandas.pydata.org
