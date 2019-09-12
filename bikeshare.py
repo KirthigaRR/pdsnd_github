@@ -1,9 +1,10 @@
+# Import section
 import time
 import pandas as pd
 import numpy as np
 import json
 
-
+#Global Data types
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
@@ -12,6 +13,8 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 months =   ['all','january','february','march','april','may','june']
 
 days   =   ['all','sunday','monday','tuesday','wednesday','thursday','friday','saturday']
+
+#Functions
 
 def get_filters():
     """
@@ -268,7 +271,7 @@ def display_user_data(df):
     print('-'*40)
 
 
-
+#main function the starting of the code
 
 def main():
     while True:
